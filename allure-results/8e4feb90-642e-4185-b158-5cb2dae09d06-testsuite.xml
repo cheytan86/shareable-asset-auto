@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621185765443' stop='1621185978656'>
+    <name>Test Suite Device: One Plus 7Pro</name>
+    <title>Test Suite Device: One Plus 7Pro</title>
+    <test-cases>
+        <test-case start='1621185765444' status='broken' stop='1621185978655'>
+            <name>User is able to login succesfully</name>
+            <title>User is able to login succesfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='e64ba61d-11'/>
+                <parameter kind='argument' name='device' value='e64ba61d-11'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b86f6230-6024-4e52-863a-3ab38b282abe-attachment.png' type='image/png' size='220234'/>
+            </attachments>
+            <failure>
+                <message>Cannot convert undefined or null to object</message>
+                <stack-trace>TypeError: Cannot convert undefined or null to object
+                    at Function.assign (&lt;anonymous>)
+                    at module.exports (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/xpath-html/src/extendElement.js:35:10)
+                    at XPath.findElement (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/xpath-html/src/XPath.js:35:5)
+                    at IMAPEmail.getLinkFromHtml (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/utils/email.util.ts:163:47)
+                    at IMAPEmail.verifyEmail (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/utils/email.util.ts:155:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Context.&lt;anonymous> (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/test/specs/android/signin.specs.ts:21:9)
+                    at Context.executeAsync (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/@wdio/utils/build/shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

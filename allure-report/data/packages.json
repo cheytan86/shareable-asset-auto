@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Test Suite Device: One Plus 7Pro",
+    "children" : [ {
+      "name" : "User is able to login succesfully",
+      "uid" : "f6985c357fb135db",
+      "parentUid" : "92c482ec19dcbfede2bbcba4a87d5d45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622190243177,
+        "stop" : 1622190338365,
+        "duration" : 95188
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "e64ba61d-11" ]
+    } ],
+    "uid" : "92c482ec19dcbfede2bbcba4a87d5d45"
+  } ],
+  "name" : "packages"
+}

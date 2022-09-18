@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621187879891' stop='1621187895914'>
+    <name>Test Suite Device: One Plus 7Pro</name>
+    <title>Test Suite Device: One Plus 7Pro</title>
+    <test-cases>
+        <test-case start='1621187879892' status='broken' stop='1621187895912'>
+            <name>User is able to login succesfully</name>
+            <title>User is able to login succesfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='e64ba61d-11'/>
+                <parameter kind='argument' name='device' value='e64ba61d-11'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='330cf094-17ed-4439-9db4-fa386e04f4d6-attachment.png' type='image/png' size='3864431'/>
+            </attachments>
+            <failure>
+                <message>element ("//*[@text="Enter your email"]") still not displayed after 10000ms</message>
+                <stack-trace>Error: element ("//*[@text="Enter your email"]") still not displayed after 10000ms
+                    at /Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23
+                    at Element.wrapCommandFn (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/@wdio/utils/build/shim.js:78:29)
+                    at Element.elementErrorHandlerCallbackFn (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/webdriverio/build/middlewares.js:23:32)
+                    at Element.wrapCommandFn (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/@wdio/utils/build/shim.js:78:29)
+                    at Element.wrapCommandFn (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/@wdio/utils/build/shim.js:78:29)
+                    at Element.elementErrorHandlerCallbackFn (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/webdriverio/build/middlewares.js:23:32)
+                    at Element.wrapCommandFn (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/@wdio/utils/build/shim.js:78:29)
+                    at Context.&lt;anonymous> (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/test/specs/android/signin.specs.ts:12:9)
+                    at Context.executeAsync (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/@wdio/utils/build/shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

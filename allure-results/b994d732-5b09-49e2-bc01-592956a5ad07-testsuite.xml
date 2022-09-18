@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621182451830' stop='1621182698610'>
+    <name>Test Suite Device: One Plus 7Pro</name>
+    <title>Test Suite Device: One Plus 7Pro</title>
+    <test-cases>
+        <test-case start='1621182451830' status='broken' stop='1621182698608'>
+            <name>User is able to login succesfully</name>
+            <title>User is able to login succesfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='e64ba61d-11'/>
+                <parameter kind='argument' name='device' value='e64ba61d-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Protocol error (Page.navigate): Cannot navigate to invalid URL</message>
+                <stack-trace>Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+                    at /Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/puppeteer/src/common/Connection.ts:281:57
+                    at new Promise (&lt;anonymous>)
+                    at CDPSession.send (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/puppeteer/src/common/Connection.ts:280:12)
+                    at navigate (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/puppeteer/src/common/FrameManager.ts:183:39)
+                    at FrameManager.navigateFrame (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/puppeteer/src/common/FrameManager.ts:161:7)
+                    at Frame.goto (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/puppeteer/src/common/FrameManager.ts:642:37)
+                    at Page.goto (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/puppeteer/src/common/Page.ts:1385:49)
+                    at IMAPEmail.clickLinkPupeeter (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/utils/email.util.ts:181:20)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at IMAPEmail.verifyEmail (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/utils/email.util.ts:159:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

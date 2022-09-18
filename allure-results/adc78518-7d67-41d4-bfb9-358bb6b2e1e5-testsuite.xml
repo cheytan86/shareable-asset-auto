@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621179258950' stop='1621179331238'>
+    <name>Test Suite Device: One Plus 7Pro</name>
+    <title>Test Suite Device: One Plus 7Pro</title>
+    <test-cases>
+        <test-case start='1621179258950' status='broken' stop='1621179331233'>
+            <name>User is able to login succesfully</name>
+            <title>User is able to login succesfully</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='e64ba61d-11'/>
+                <parameter kind='argument' name='device' value='e64ba61d-11'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "Test Suite Device: One Plus 7Pro User is able to login succesfully" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/test/specs/android/signin.specs.ts)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "Test Suite Device: One Plus 7Pro User is able to login succesfully" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/test/specs/android/signin.specs.ts)
+                    at createTimeoutError (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/mocha/lib/errors.js:498:15)
+                    at Test.Runnable._timeoutError (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/mocha/lib/runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/mocha/lib/runnable.js:246:24)
+                    at listOnTimeout (internal/timers.js:554:17)
+                    at processTimers (internal/timers.js:497:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

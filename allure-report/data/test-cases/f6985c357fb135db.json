@@ -1,0 +1,218 @@
+{
+  "uid" : "f6985c357fb135db",
+  "name" : "User is able to login succesfully",
+  "fullName" : "Test Suite Device: One Plus 7Pro.User is able to login succesfully",
+  "historyId" : "3ba61b4881a570c08194edbba2c1ffaa",
+  "time" : {
+    "start" : 1622190243177,
+    "stop" : 1622190338365,
+    "duration" : 95188
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test Suite Device: One Plus 7Pro"
+  }, {
+    "name" : "testClass",
+    "value" : "Test Suite Device: One Plus 7Pro"
+  }, {
+    "name" : "testMethod",
+    "value" : "User is able to login succesfully"
+  }, {
+    "name" : "package",
+    "value" : "Test Suite Device: One Plus 7Pro"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "e64ba61d-11"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "133fa742ec343218",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622187529382,
+        "stop" : 1622187614724,
+        "duration" : 85342
+      }
+    }, {
+      "uid" : "677b9b816efb2045",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622024116743,
+        "stop" : 1622024209654,
+        "duration" : 92911
+      }
+    }, {
+      "uid" : "1cc5c15fd6f9290f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622023421906,
+        "stop" : 1622023511909,
+        "duration" : 90003
+      }
+    }, {
+      "uid" : "1b783ac599a90dfd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621272369097,
+        "stop" : 1621272459128,
+        "duration" : 90031
+      }
+    }, {
+      "uid" : "6a55c5193ab74482",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621271481385,
+        "stop" : 1621271567923,
+        "duration" : 86538
+      }
+    }, {
+      "uid" : "2577b6f7854fe780",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621268395543,
+        "stop" : 1621268495692,
+        "duration" : 100149
+      }
+    }, {
+      "uid" : "425585536b12c7b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621253254746,
+        "stop" : 1621253340021,
+        "duration" : 85275
+      }
+    }, {
+      "uid" : "ea84eb31ea841692",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621252542523,
+        "stop" : 1621252626045,
+        "duration" : 83522
+      }
+    }, {
+      "uid" : "76577cc036c19d61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621251567671,
+        "stop" : 1621251647534,
+        "duration" : 79863
+      }
+    }, {
+      "uid" : "4c42490fba21d8cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621251336185,
+        "stop" : 1621251411750,
+        "duration" : 75565
+      }
+    }, {
+      "uid" : "13ee4f86df3899a0",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"//*[@resource-id=\"com.truecaller:id/textOtp\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1621249405709,
+        "stop" : 1621249514833,
+        "duration" : 109124
+      }
+    }, {
+      "uid" : "1c14d9be06dc6a75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621237109129,
+        "stop" : 1621237303261,
+        "duration" : 194132
+      }
+    }, {
+      "uid" : "94bb286f08833d63",
+      "status" : "broken",
+      "statusDetails" : "element (\"//*[@text=\"Enter your email\"]\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1621187879892,
+        "stop" : 1621187895912,
+        "duration" : 16020
+      }
+    }, {
+      "uid" : "58f9a617cf416ee2",
+      "status" : "broken",
+      "statusDetails" : "Cannot convert undefined or null to object",
+      "time" : {
+        "start" : 1621185765444,
+        "stop" : 1621185978655,
+        "duration" : 213211
+      }
+    }, {
+      "uid" : "cefbcc2fe9cda749",
+      "status" : "broken",
+      "statusDetails" : "Protocol error (Page.navigate): Cannot navigate to invalid URL",
+      "time" : {
+        "start" : 1621182451830,
+        "stop" : 1621182698608,
+        "duration" : 246778
+      }
+    }, {
+      "uid" : "66222753e3d99cc1",
+      "status" : "broken",
+      "statusDetails" : "Timed out while connecting to server",
+      "time" : {
+        "start" : 1621182027660,
+        "stop" : 1621182098792,
+        "duration" : 71132
+      }
+    }, {
+      "uid" : "9c8d72d2b2b88840",
+      "status" : "broken",
+      "statusDetails" : "Timed out while connecting to server",
+      "time" : {
+        "start" : 1621181776122,
+        "stop" : 1621181881527,
+        "duration" : 105405
+      }
+    }, {
+      "uid" : "10bdc1246278deda",
+      "status" : "broken",
+      "statusDetails" : "Protocol error (Page.navigate): Cannot navigate to invalid URL",
+      "time" : {
+        "start" : 1621179419290,
+        "stop" : 1621179473714,
+        "duration" : 54424
+      }
+    }, {
+      "uid" : "4d0b60562256d4b0",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Test Suite Device: One Plus 7Pro User is able to login succesfully\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/test/specs/android/signin.specs.ts)",
+      "time" : {
+        "start" : 1621179258950,
+        "stop" : 1621179331233,
+        "duration" : 72283
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f6985c357fb135db.json",
+  "parameterValues" : [ "e64ba61d-11" ]
+}

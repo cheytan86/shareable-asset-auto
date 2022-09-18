@@ -1,0 +1,76 @@
+{
+  "uid" : "10bdc1246278deda",
+  "name" : "User is able to login succesfully",
+  "fullName" : "Test Suite Device: One Plus 7Pro.User is able to login succesfully",
+  "historyId" : "3ba61b4881a570c08194edbba2c1ffaa",
+  "time" : {
+    "start" : 1621179419290,
+    "stop" : 1621179473714,
+    "duration" : 54424
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Protocol error (Page.navigate): Cannot navigate to invalid URL",
+  "statusTrace" : "Error: Protocol error (Page.navigate): Cannot navigate to invalid URL\n                    at /Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/puppeteer/src/common/Connection.ts:281:57\n                    at new Promise (<anonymous>)\n                    at CDPSession.send (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/puppeteer/src/common/Connection.ts:280:12)\n                    at navigate (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/puppeteer/src/common/FrameManager.ts:183:39)\n                    at FrameManager.navigateFrame (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/puppeteer/src/common/FrameManager.ts:161:7)\n                    at Frame.goto (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/puppeteer/src/common/FrameManager.ts:642:37)\n                    at Page.goto (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/puppeteer/src/common/Page.ts:1385:49)\n                    at IMAPEmail.clickLinkPupeeter (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/utils/email.util.ts:164:20)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at IMAPEmail.verifyEmail (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/utils/email.util.ts:142:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Protocol error (Page.navigate): Cannot navigate to invalid URL",
+    "statusTrace" : "Error: Protocol error (Page.navigate): Cannot navigate to invalid URL\n                    at /Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/puppeteer/src/common/Connection.ts:281:57\n                    at new Promise (<anonymous>)\n                    at CDPSession.send (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/puppeteer/src/common/Connection.ts:280:12)\n                    at navigate (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/puppeteer/src/common/FrameManager.ts:183:39)\n                    at FrameManager.navigateFrame (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/puppeteer/src/common/FrameManager.ts:161:7)\n                    at Frame.goto (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/puppeteer/src/common/FrameManager.ts:642:37)\n                    at Page.goto (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/puppeteer/src/common/Page.ts:1385:49)\n                    at IMAPEmail.clickLinkPupeeter (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/utils/email.util.ts:164:20)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at IMAPEmail.verifyEmail (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/utils/email.util.ts:142:9)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "435104ba76a503d7",
+      "name" : "Screenshot",
+      "source" : "435104ba76a503d7.png",
+      "type" : "image/png",
+      "size" : 208253
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test Suite Device: One Plus 7Pro"
+  }, {
+    "name" : "testClass",
+    "value" : "Test Suite Device: One Plus 7Pro"
+  }, {
+    "name" : "testMethod",
+    "value" : "User is able to login succesfully"
+  }, {
+    "name" : "package",
+    "value" : "Test Suite Device: One Plus 7Pro"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "e64ba61d-11"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "10bdc1246278deda.json",
+  "parameterValues" : [ "e64ba61d-11" ]
+}

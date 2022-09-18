@@ -1,0 +1,56 @@
+{
+  "uid" : "ea84eb31ea841692",
+  "name" : "User is able to login succesfully",
+  "fullName" : "Test Suite Device: One Plus 7Pro.User is able to login succesfully",
+  "historyId" : "3ba61b4881a570c08194edbba2c1ffaa",
+  "time" : {
+    "start" : 1621252542523,
+    "stop" : 1621252626045,
+    "duration" : 83522
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test Suite Device: One Plus 7Pro"
+  }, {
+    "name" : "testClass",
+    "value" : "Test Suite Device: One Plus 7Pro"
+  }, {
+    "name" : "testMethod",
+    "value" : "User is able to login succesfully"
+  }, {
+    "name" : "package",
+    "value" : "Test Suite Device: One Plus 7Pro"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "e64ba61d-11"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ea84eb31ea841692.json",
+  "parameterValues" : [ "e64ba61d-11" ]
+}

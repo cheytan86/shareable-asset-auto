@@ -1,0 +1,76 @@
+{
+  "uid" : "13ee4f86df3899a0",
+  "name" : "User is able to login succesfully",
+  "fullName" : "Test Suite Device: One Plus 7Pro.User is able to login succesfully",
+  "historyId" : "3ba61b4881a570c08194edbba2c1ffaa",
+  "time" : {
+    "start" : 1621249405709,
+    "stop" : 1621249514833,
+    "duration" : 109124
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call getText on element with selector \"//*[@resource-id=\"com.truecaller:id/textOtp\"]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call getText on element with selector \"//*[@resource-id=\"com.truecaller:id/textOtp\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at Element.elementErrorHandlerCallbackFn (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at Element.wrapCommandFn (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at VerifyEmailPage.enterOneTimePassword (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/test/pageObjects/Signin/verifyemail.page.ts:98:20)\n                    at Context.<anonymous> (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/test/specs/android/signin.specs.ts:25:9)\n                    at Context.executeAsync (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Can't call getText on element with selector \"//*[@resource-id=\"com.truecaller:id/textOtp\"]\" because element wasn't found",
+    "statusTrace" : "Error: Can't call getText on element with selector \"//*[@resource-id=\"com.truecaller:id/textOtp\"]\" because element wasn't found\n                    at Object.implicitWait [as default] (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/webdriverio/build/utils/implicitWait.js:34:19)\n                    at Element.elementErrorHandlerCallbackFn (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/webdriverio/build/middlewares.js:19:29)\n                    at Element.wrapCommandFn (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at VerifyEmailPage.enterOneTimePassword (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/test/pageObjects/Signin/verifyemail.page.ts:98:20)\n                    at Context.<anonymous> (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/test/specs/android/signin.specs.ts:25:9)\n                    at Context.executeAsync (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/@wdio/utils/build/shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (/Users/chetanmalhotra/code/TestAutomation/WDIO/shareable-asset/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7472016cf7b34e99",
+      "name" : "Screenshot",
+      "source" : "7472016cf7b34e99.png",
+      "type" : "image/png",
+      "size" : 235414
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test Suite Device: One Plus 7Pro"
+  }, {
+    "name" : "testClass",
+    "value" : "Test Suite Device: One Plus 7Pro"
+  }, {
+    "name" : "testMethod",
+    "value" : "User is able to login succesfully"
+  }, {
+    "name" : "package",
+    "value" : "Test Suite Device: One Plus 7Pro"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "e64ba61d-11"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "13ee4f86df3899a0.json",
+  "parameterValues" : [ "e64ba61d-11" ]
+}
